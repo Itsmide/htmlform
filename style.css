@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url(collage\ back.png);
+    background-size: contain;
+    font-display: arial;
+    color: #3333;
+    font-size: 13px;
+    margin: 0;
+}
+
+input,
+select,
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    font-size: 14px;
+}
+
+h2 {
+    margin: 0;
+}
+h3 {
+  margin: 0;
+  display: flex;
+  position: relative;
+}
+
+img {
+    max-width: 100%;
+}
+
+:focus {
+    outline: none;
+}
+
+.wrap {
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner {
+    padding: 20px;
+    background: #f4f0f0;
+    max-width: 850px;
+    margin: auto;
+    display: flex;
+}
+
+.inner,
+.image-holder {
+    width: 100%;
+}
+
+.inner form {
+    width: 50%;
+    padding-top: 36px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.inner h2 {
+    text-transform: uppercase;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.form-group {
+    display: flex;
+}
+
+.form-group first-child {
+    margin-right: 0px;
+}
+
+.form-wrap {
+    position: relative;
+}
+
+.form-contain {
+    border: 1px solid #333;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 1px solid #333;
+    width: 100%;
+    height: 30px;
+    padding-right: 0;
+    margin-bottom: 25px;
+}
+.form-contain1 {
+    border: 1px solid #333;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 1px solid #333;
+    width: 89%;
+    height: 30px;
+    padding-right: 0;
+    margin-bottom: 25px;
+}
+
+select {
+    cursor: pointer;
+    color: grey;
+}
+
+select option[value=""][disabled] {
+    display: none;
+}
+
+button {
+    border: none;
+    width: 166px;
+    height: 52px;
+    margin: auto;
+    margin-top: 38px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0;
+    background-color: #333;
+    font-size: 15px;
+    color: #fff;
+}
+
+button:hover {
+    background: seagreen;
+}
+
+
+
